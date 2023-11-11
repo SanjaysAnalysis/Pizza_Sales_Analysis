@@ -1,4 +1,5 @@
 select * from pizza_sales
+select count(*) from pizza_sales
 
 select round(sum(total_price),2) as Total_revenue
 from pizza_sales	--817860.05
